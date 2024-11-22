@@ -6,6 +6,8 @@ PFont pixel;
 int health;
 int attack,esccheck=0;
 boolean esc = boolean(esccheck);
+int mainHP,mainATK,npcHP,npcATK;
+
 
 void  setup(){
 size(1024,768);
